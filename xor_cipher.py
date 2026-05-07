@@ -21,7 +21,8 @@ for i in range(len(cifrado)):
 resultado = ""
 for i in range(0, len(descifrado), 8):
     resultado += chr(int(descifrado[i:i+8], 2))
-
+    
+print("texto:", texto)
 print("Llave:", llave)
 print("Cifrado:", cifrado)
 print("Descifrado:", resultado)
